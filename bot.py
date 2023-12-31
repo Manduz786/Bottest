@@ -14,7 +14,7 @@ ment)
 async def fwd(bot,message):
         try:
                 await asyncio.sleep(5)
-                await message.forward(chanelid)
+                await message.forward(-1002064526725)
         except BadRequest as e:
                 print("error : " + str(e))
 app.run()
