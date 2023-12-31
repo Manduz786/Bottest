@@ -3,7 +3,7 @@ from pyrogram.errors import BadRequest
 import asyncio
 api_id = "24928579"
 api_hash = "4e8991e8a9ae7aa37d6952d5b7ded2c5"
-bot_token = "6591255871:AAGFraAxEJyNDtA6rQTOQLd7CC83y-xM9zs"
+bot_token = "6591255871:AAEErbwC5_5AO5OByauAb63luj5x3tRIAno"
 app = Client("my_bot",
         api_id = api_id, api_hash = api_hash,
         bot_token = bot_token
