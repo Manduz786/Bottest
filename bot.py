@@ -10,7 +10,7 @@ app = Client("my_bot",api_id = api_id, api_hash = api_hash,bot_token = bot_token
 async def fwd(bot,message):
     try:
         #await asyncio.sleep(5)
-        await message.forward(-1002064526725)
+        await message.forward(-1002085625613)
     except BadRequest as e:
        print("error : " + str(e))
 app.run()
