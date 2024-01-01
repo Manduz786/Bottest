@@ -8,9 +8,9 @@ app = Client("my_bot",api_id = api_id, api_hash = api_hash,bot_token = bot_token
   
 @app.on_message(filters.photo | filters.animation | filters.video | filters.document)
 async def fwd(bot,message):
-        try:
-                await asyncio.sleep(5)
-                await message.forward(-1002064526725)
-        except BadRequest as e:
-                print("error : " + str(e))
+    try:
+       await asyncio.sleep(5)
+       await message.forward(-1002064526725)
+    except BadRequest as e:
+       print("error : " + str(e))
 app.run()
